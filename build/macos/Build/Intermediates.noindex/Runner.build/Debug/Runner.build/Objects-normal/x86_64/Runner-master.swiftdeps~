@@ -1,0 +1,8 @@
+version: "Apple Swift version 5.7 (swiftlang-5.7.0.127.4 clang-1400.0.29.50)"
+options: "fb4d941eb99468be56e3cffa36c66fd45fa862093e4bf98333fd0a0366cfd422"
+build_start_time: [1693846235, 741231918]
+build_end_time: [1693846235, 850900173]
+inputs:
+  "/Users/shahabmustafa/Desktop/chats_app/macos/Flutter/GeneratedPluginRegistrant.swift": !private [1693846172, 488111495]
+  "/Users/shahabmustafa/Desktop/chats_app/macos/Runner/AppDelegate.swift": !private [1657744753, 0]
+  "/Users/shahabmustafa/Desktop/chats_app/macos/Runner/MainFlutterWindow.swift": !private [1657744753, 0]

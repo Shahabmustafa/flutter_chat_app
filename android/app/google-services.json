@@ -1,0 +1,39 @@
+{
+  "project_info": {
+    "project_number": "973043108438",
+    "project_id": "smooth-cycling-390411",
+    "storage_bucket": "smooth-cycling-390411.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:973043108438:android:28364fa0dfa360d04909f7",
+        "android_client_info": {
+          "package_name": "com.example.chats_app"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "973043108438-sd27kjd8up0f54eaj1rlms5i1bl033ka.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyCm7MZCrMRGMaRFVNmpDzoSP9hR0pl9G_s"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "973043108438-sd27kjd8up0f54eaj1rlms5i1bl033ka.apps.googleusercontent.com",
+              "client_type": 3
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

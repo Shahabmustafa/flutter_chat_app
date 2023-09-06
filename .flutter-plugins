@@ -1,0 +1,17 @@
+# This is a generated file; do not edit or check into version control.
+cloud_firestore=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/cloud_firestore-4.9.1/
+cloud_firestore_web=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/cloud_firestore_web-3.7.0/
+firebase_auth=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/firebase_auth-4.9.0/
+firebase_auth_web=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/firebase_auth_web-5.8.0/
+firebase_core=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/firebase_core-2.15.1/
+firebase_core_web=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/firebase_core_web-2.7.0/
+google_sign_in=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in-6.1.5/
+google_sign_in_android=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.19/
+google_sign_in_ios=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.6.3/
+google_sign_in_web=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.0+4/
+path_provider=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/path_provider-2.1.1/
+path_provider_android=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/path_provider_android-2.2.0/
+path_provider_foundation=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/path_provider_foundation-2.3.1/
+path_provider_linux=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/path_provider_linux-2.2.1/
+path_provider_windows=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/path_provider_windows-2.2.1/
+sqflite=/Users/shahabmustafa/.pub-cache/hosted/pub.dev/sqflite-2.2.8+4/
