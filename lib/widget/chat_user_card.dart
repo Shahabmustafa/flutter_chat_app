@@ -1,8 +1,6 @@
-
-
-
 import 'package:cached_network_image/cached_network_image.dart';
 import 'package:chats_app/model/chat_user.dart';
+import 'package:chats_app/screen/chatt_screen.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
@@ -41,6 +39,12 @@ class _ChatUserCardState extends State<ChatUserCard> {
             borderRadius: BorderRadius.circular(100)
           ),
         ),
+        onTap: (){
+          Navigator.push(context, MaterialPageRoute(
+              builder: (context) => ChatPage(
+                user: widget.user,
+              )));
+        },
       ),
     );
   }

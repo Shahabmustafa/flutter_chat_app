@@ -19,9 +19,12 @@ class CusttomButton extends StatelessWidget {
         height: height,
         decoration: boxDecoration,
         child: Row(
-          mainAxisAlignment: MainAxisAlignment.spaceEvenly,
+          mainAxisAlignment: MainAxisAlignment.center,
           children: [
-            Image.asset("images/${imageUrl}",height: 40,width: 40,),
+            Image.asset("images/${imageUrl}",height: 25,width: 25,),
+            SizedBox(
+              width: 10,
+            ),
             Text("${title}",style: TextStyle(
               color: Colors.black,
               fontSize: 18,

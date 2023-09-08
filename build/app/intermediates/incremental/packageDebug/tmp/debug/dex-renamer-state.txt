@@ -1,4 +1,4 @@
-#Wed Sep 06 12:30:52 PKT 2023
+#Fri Sep 08 10:24:47 PKT 2023
 base.0=/Users/shahabmustafa/Desktop/chats_app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/shahabmustafa/Desktop/chats_app/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
 base.2=/Users/shahabmustafa/Desktop/chats_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

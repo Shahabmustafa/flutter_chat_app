@@ -24,7 +24,7 @@ class _SplashPageState extends State<SplashPage> {
       SystemChrome.setEnabledSystemUIMode(SystemUiMode.edgeToEdge);
       SystemChrome.setSystemUIOverlayStyle(
         SystemUiOverlayStyle(
-         statusBarColor: Colors.transparent,
+         systemNavigationBarColor: Colors.white,
         ),
       );
       if(APIs.auth.currentUser != null){
