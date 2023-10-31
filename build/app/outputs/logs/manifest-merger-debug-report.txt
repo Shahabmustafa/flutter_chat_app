@@ -1,16 +1,16 @@
 -- Merging decision tree log ---
 application
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:3:4-33:19
-MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
-MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
-MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:3:4-33:19
+MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-15:19
+MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
+MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-19:19
 MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/shahabmustafa/.gradle/caches/transforms-3/dbbdfd42431e90d57baf3cf957524069/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/shahabmustafa/.gradle/caches/transforms-3/dbbdfd42431e90d57baf3cf957524069/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:22:5-38:19
 MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:28:5-73:19
@@ -48,22 +48,22 @@ MERGED from [androidx.versionedparcelable:versionedparcelable:1.1.1] /Users/shah
 	android:appComponentFactory
 		ADDED from [androidx.core:core:1.10.1] /Users/shahabmustafa/.gradle/caches/transforms-3/738ffe132fb6d59bb133a794b03c26bd/transformed/core-1.10.1/AndroidManifest.xml:28:18-86
 	android:name
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml
 manifest
-ADDED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
-MERGED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
-MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
-MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
-MERGED from [:flutter_plugin_android_lifecycle] /Users/shahabmustafa/Desktop/chats_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:sqflite] /Users/shahabmustafa/Desktop/chats_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:path_provider_android] /Users/shahabmustafa/Desktop/chats_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
-MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/chats_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
+ADDED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
+MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-17:12
+MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-21:12
+MERGED from [:flutter_plugin_android_lifecycle] /Users/shahabmustafa/Desktop/flutter_chat_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:sqflite] /Users/shahabmustafa/Desktop/flutter_chat_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:path_provider_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-9:12
+MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:2:1-11:12
 MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/shahabmustafa/.gradle/caches/transforms-3/dbbdfd42431e90d57baf3cf957524069/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:17:1-40:12
 MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:17:1-75:12
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shahabmustafa/.gradle/caches/transforms-3/3f1fe593b51a8da799896a0cc1e53288/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:2:1-25:12
@@ -108,45 +108,45 @@ MERGED from [androidx.arch.core:core-runtime:2.2.0] /Users/shahabmustafa/.gradle
 MERGED from [io.grpc:grpc-android:1.52.1] /Users/shahabmustafa/.gradle/caches/transforms-3/0dccd27b0ccb9ef9c1785b8df187193b/transformed/jetified-grpc-android-1.52.1/AndroidManifest.xml:2:1-11:12
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shahabmustafa/.gradle/caches/transforms-3/f1336a64d4bd9a85175992232fea4f85/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:17:1-22:12
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shahabmustafa/.gradle/caches/transforms-3/bd3aa94b55b79bae836024eee89fc00b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:2:1-11:12
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml:1:1-8:12
 	package
-		ADDED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:2:5-36
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml
+		ADDED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:2:5-36
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml
 	android:versionName
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml
 	android:versionCode
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml
-		ADDED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml
+		ADDED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:1:1-34:12
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml
 	xmlns:android
-		ADDED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml:1:11-69
+		ADDED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml:1:11-69
 uses-sdk
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml
-MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] /Users/shahabmustafa/Desktop/chats_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:flutter_plugin_android_lifecycle] /Users/shahabmustafa/Desktop/chats_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:sqflite] /Users/shahabmustafa/Desktop/chats_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:sqflite] /Users/shahabmustafa/Desktop/chats_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] /Users/shahabmustafa/Desktop/chats_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:path_provider_android] /Users/shahabmustafa/Desktop/chats_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/chats_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
-MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/chats_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml reason: use-sdk injection requested
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml
+MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/shahabmustafa/Desktop/flutter_chat_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:flutter_plugin_android_lifecycle] /Users/shahabmustafa/Desktop/flutter_chat_app/build/flutter_plugin_android_lifecycle/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/shahabmustafa/Desktop/flutter_chat_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:sqflite] /Users/shahabmustafa/Desktop/flutter_chat_app/build/sqflite/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:path_provider_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/path_provider_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
+MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:5:5-7:41
 MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/shahabmustafa/.gradle/caches/transforms-3/dbbdfd42431e90d57baf3cf957524069/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.android.gms:play-services-auth:20.6.0] /Users/shahabmustafa/.gradle/caches/transforms-3/dbbdfd42431e90d57baf3cf957524069/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:21:5-23:64
@@ -235,20 +235,20 @@ MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shahabmus
 MERGED from [androidx.annotation:annotation-experimental:1.3.0] /Users/shahabmustafa/.gradle/caches/transforms-3/f1336a64d4bd9a85175992232fea4f85/transformed/jetified-annotation-experimental-1.3.0/AndroidManifest.xml:20:5-44
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shahabmustafa/.gradle/caches/transforms-3/bd3aa94b55b79bae836024eee89fc00b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
 MERGED from [com.google.firebase:protolite-well-known-types:18.0.0] /Users/shahabmustafa/.gradle/caches/transforms-3/bd3aa94b55b79bae836024eee89fc00b/transformed/jetified-protolite-well-known-types-18.0.0/AndroidManifest.xml:7:5-9:41
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml
-INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml
+INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml
 	tools:overrideLibrary
 		ADDED from [com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:23:9-61
 	android:targetSdkVersion
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml
 	android:minSdkVersion
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/main/AndroidManifest.xml
-		INJECTED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/AndroidManifest.xml
+		INJECTED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml
 uses-permission#android.permission.INTERNET
-ADDED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml:7:5-66
-MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/chats_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
-MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/chats_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+ADDED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml:7:5-66
+MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
+MERGED from [:google_sign_in_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/google_sign_in_android/intermediates/merged_manifest/debug/AndroidManifest.xml:9:5-67
 MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:25:5-67
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shahabmustafa/.gradle/caches/transforms-3/3f1fe593b51a8da799896a0cc1e53288/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:13:5-67
@@ -258,15 +258,15 @@ MERGED from [com.google.firebase:firebase-storage:20.2.1] /Users/shahabmustafa/.
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shahabmustafa/.gradle/caches/transforms-3/07aa9d273930deb73e3626a764611ae5/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 MERGED from [com.google.android.recaptcha:recaptcha:18.1.2] /Users/shahabmustafa/.gradle/caches/transforms-3/07aa9d273930deb73e3626a764611ae5/transformed/jetified-recaptcha-18.1.2/AndroidManifest.xml:7:5-67
 	android:name
-		ADDED from /Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml:7:22-64
+		ADDED from /Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml:7:22-64
 service#com.google.firebase.components.ComponentDiscoveryService
-ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
-MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+MERGED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:66:9-72:19
 MERGED from [com.google.firebase:firebase-firestore:24.7.0] /Users/shahabmustafa/.gradle/caches/transforms-3/3f1fe593b51a8da799896a0cc1e53288/transformed/jetified-firebase-firestore-24.7.0/AndroidManifest.xml:16:9-22:19
@@ -282,47 +282,47 @@ MERGED from [com.google.firebase:firebase-common:20.3.3] /Users/shahabmustafa/.g
 	android:directBootAware
 		ADDED from [com.google.firebase:firebase-common:20.3.3] /Users/shahabmustafa/.gradle/caches/transforms-3/67bdc1a43958ecd512da746c2e2fd239/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
 	android:name
-		ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+		ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar
-ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar
-ADDED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+		ADDED from [:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar
-ADDED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+ADDED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+		ADDED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+		ADDED from [:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
 meta-data#com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar
-ADDED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+ADDED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 	android:value
-		ADDED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+		ADDED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 	android:name
-		ADDED from [:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+		ADDED from [:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 provider#io.flutter.plugins.imagepicker.ImagePickerFileProvider
-ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 	android:grantUriPermissions
-		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 	android:authorities
-		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
 	android:exported
-		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 	android:name
-		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
 meta-data#android.support.FILE_PROVIDER_PATHS
-ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
 	android:resource
-		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
 	android:name
-		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+		ADDED from [:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
 activity#com.google.android.gms.auth.api.signin.internal.SignInHubActivity
 ADDED from [com.google.android.gms:play-services-auth:20.6.0] /Users/shahabmustafa/.gradle/caches/transforms-3/dbbdfd42431e90d57baf3cf957524069/transformed/jetified-play-services-auth-20.6.0/AndroidManifest.xml:23:9-27:75
 	android:excludeFromRecents

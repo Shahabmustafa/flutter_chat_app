@@ -4,7 +4,31 @@
             "outputFile": "com.example.chats_app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
             "map": [
                 {
-                    "source": "/Users/shahabmustafa/Desktop/chats_app/android/app/src/main/res/values-night/styles.xml",
+                    "source": "/Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/res/values-night/styles.xml",
+                    "from": {
+                        "startLines": "3,14",
+                        "startColumns": "4,4",
+                        "startOffsets": "172,817",
+                        "endLines": "7,17",
+                        "endColumns": "12,12",
+                        "endOffsets": "475,1060"
+                    },
+                    "to": {
+                        "startLines": "2,6",
+                        "startColumns": "4,4",
+                        "startOffsets": "55,236",
+                        "endLines": "5,9",
+                        "endColumns": "12,12",
+                        "endOffsets": "231,479"
+                    }
+                }
+            ]
+        },
+        {
+            "outputFile": "/Users/shahabmustafa/.gradle/daemon/7.6/com.example.chats_app-mergeDebugResources-26:/values-night-v8/values-night-v8.xml",
+            "map": [
+                {
+                    "source": "/Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/main/res/values-night/styles.xml",
                     "from": {
                         "startLines": "3,14",
                         "startColumns": "4,4",

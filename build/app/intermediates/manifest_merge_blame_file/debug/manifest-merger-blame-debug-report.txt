@@ -13,8 +13,8 @@
 13         to allow setting breakpoints, to provide hot reload, etc.
 14    -->
 15    <uses-permission android:name="android.permission.INTERNET" />
-15-->/Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml:7:5-66
-15-->/Users/shahabmustafa/Desktop/chats_app/android/app/src/debug/AndroidManifest.xml:7:22-64
+15-->/Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml:7:5-66
+15-->/Users/shahabmustafa/Desktop/flutter_chat_app/android/app/src/debug/AndroidManifest.xml:7:22-64
 16    <uses-permission android:name="android.permission.ACCESS_NETWORK_STATE" />
 16-->[com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:5-79
 16-->[com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:26:22-76
@@ -71,37 +71,37 @@
 61            android:value="2" />
 62
 63        <service
-63-->[:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
+63-->[:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-14:19
 64            android:name="com.google.firebase.components.ComponentDiscoveryService"
-64-->[:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
+64-->[:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:10:18-89
 65            android:directBootAware="true"
 65-->[com.google.firebase:firebase-common:20.3.3] /Users/shahabmustafa/.gradle/caches/transforms-3/67bdc1a43958ecd512da746c2e2fd239/transformed/jetified-firebase-common-20.3.3/AndroidManifest.xml:34:13-43
 66            android:exported="false" >
 66-->[com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:68:13-37
 67            <meta-data
-67-->[:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+67-->[:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 68                android:name="com.google.firebase.components:io.flutter.plugins.firebase.auth.FlutterFirebaseAuthRegistrar"
-68-->[:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+68-->[:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 69                android:value="com.google.firebase.components.ComponentRegistrar" />
-69-->[:firebase_auth] /Users/shahabmustafa/Desktop/chats_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+69-->[:firebase_auth] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_auth/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 70            <meta-data
-70-->[:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+70-->[:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 71                android:name="com.google.firebase.components:io.flutter.plugins.firebase.storage.FlutterFirebaseAppRegistrar"
-71-->[:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
+71-->[:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-126
 72                android:value="com.google.firebase.components.ComponentRegistrar" />
-72-->[:firebase_storage] /Users/shahabmustafa/Desktop/chats_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+72-->[:firebase_storage] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_storage/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 73            <meta-data
-73-->[:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+73-->[:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 74                android:name="com.google.firebase.components:io.flutter.plugins.firebase.firestore.FlutterFirebaseFirestoreRegistrar"
-74-->[:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
+74-->[:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-134
 75                android:value="com.google.firebase.components.ComponentRegistrar" />
-75-->[:cloud_firestore] /Users/shahabmustafa/Desktop/chats_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+75-->[:cloud_firestore] /Users/shahabmustafa/Desktop/flutter_chat_app/build/cloud_firestore/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 76            <meta-data
-76-->[:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
+76-->[:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-13:85
 77                android:name="com.google.firebase.components:io.flutter.plugins.firebase.core.FlutterFirebaseCoreRegistrar"
-77-->[:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
+77-->[:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:12:17-124
 78                android:value="com.google.firebase.components.ComponentRegistrar" />
-78-->[:firebase_core] /Users/shahabmustafa/Desktop/chats_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
+78-->[:firebase_core] /Users/shahabmustafa/Desktop/flutter_chat_app/build/firebase_core/intermediates/merged_manifest/debug/AndroidManifest.xml:13:17-82
 79            <meta-data
 79-->[com.google.firebase:firebase-auth:22.1.0] /Users/shahabmustafa/.gradle/caches/transforms-3/645b74919598ec7f760372cb3223294d/transformed/jetified-firebase-auth-22.1.0/AndroidManifest.xml:69:13-71:85
 80                android:name="com.google.firebase.components:com.google.firebase.auth.FirebaseAuthRegistrar"
@@ -123,21 +123,21 @@
 88        </service>
 89
 90        <provider
-90-->[:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
+90-->[:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:10:9-18:20
 91            android:name="io.flutter.plugins.imagepicker.ImagePickerFileProvider"
-91-->[:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
+91-->[:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:11:13-82
 92            android:authorities="com.example.chats_app.flutter.image_provider"
-92-->[:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
+92-->[:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:12:13-74
 93            android:exported="false"
-93-->[:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
+93-->[:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:13:13-37
 94            android:grantUriPermissions="true" >
-94-->[:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
+94-->[:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:14:13-47
 95            <meta-data
-95-->[:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
+95-->[:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:15:13-17:75
 96                android:name="android.support.FILE_PROVIDER_PATHS"
-96-->[:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
+96-->[:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:16:17-67
 97                android:resource="@xml/flutter_image_picker_file_paths" />
-97-->[:image_picker_android] /Users/shahabmustafa/Desktop/chats_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
+97-->[:image_picker_android] /Users/shahabmustafa/Desktop/flutter_chat_app/build/image_picker_android/intermediates/merged_manifest/debug/AndroidManifest.xml:17:17-72
 98        </provider>
 99
 100        <activity
