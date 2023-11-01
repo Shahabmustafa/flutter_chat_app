@@ -368,6 +368,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "intl",
+      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/intl-0.18.1",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "js",
       "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/js-0.6.5",
       "packageUri": "lib/",
@@ -402,6 +408,12 @@
       "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/mime-1.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.18"
+    },
+    {
+      "name": "nested",
+      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/nested-1.0.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "octo_image",
@@ -474,6 +486,12 @@
       "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/pointycastle-3.7.3",
       "packageUri": "lib/",
       "languageVersion": "2.14"
+    },
+    {
+      "name": "provider",
+      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/provider-6.0.5",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
     },
     {
       "name": "quiver",
@@ -554,6 +572,12 @@
       "languageVersion": "2.18"
     },
     {
+      "name": "timeago",
+      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/timeago-3.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.12"
+    },
+    {
       "name": "typed_data",
       "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/typed_data-1.3.2",
       "packageUri": "lib/",
@@ -608,7 +632,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-10-31T18:12:51.096178Z",
+  "generated": "2023-11-01T10:42:25.756705Z",
   "generator": "pub",
   "generatorVersion": "3.1.2"
 }
