@@ -86,7 +86,7 @@ class _UserItemState extends State<UserItem> {
       title: Text("${widget.user.name}"),
       subtitle: Text("${widget.user.email}"),
       onTap: (){
-        Navigator.push(context, MaterialPageRoute(builder: (context) => ChatScreen(user: widget.user,)));
+        Navigator.push(context, MaterialPageRoute(builder: (context) => ChatScreen(userId: widget.user.uid.toString(),)));
       },
     );
   }

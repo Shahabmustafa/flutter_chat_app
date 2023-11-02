@@ -1,4 +1,6 @@
+import 'dart:typed_data';
 import 'package:chats_app/src/apis/firebase_provider.dart';
+import 'package:chats_app/src/service/media_service.dart';
 import 'package:flutter/material.dart';
 
 class ChatTextField extends StatefulWidget {
@@ -11,6 +13,7 @@ class ChatTextField extends StatefulWidget {
 
 class _ChatTextFieldState extends State<ChatTextField> {
   TextEditingController messageController = TextEditingController();
+  Uint8List? file;
   @override
   void dispose() {
     // TODO: implement dispose
@@ -45,13 +48,26 @@ class _ChatTextFieldState extends State<ChatTextField> {
         ),
         CircleAvatar(
           child: IconButton(
-            onPressed: (){},
+            onPressed: () => _sendImage(context),
             icon: Icon(Icons.camera_alt),
           ),
         ),
       ],
     );
   }
+  Future<void> _sendImage(BuildContext context)async{
+    final pickedImage = await MediaService.pickImage();
+    setState(() {
+      file = pickedImage;
+    });
+    if(file != null){
+      await FirebaseProvider.addImageMessage(
+        reciverId: widget.reciverId,
+        file: file!,
+      );
+    }
+  }
+
   Future<void> _sendText(BuildContext context)async{
     if(messageController.text.isNotEmpty){
       await FirebaseProvider.addTextMessage(
@@ -64,3 +80,4 @@ class _ChatTextFieldState extends State<ChatTextField> {
     FocusScope.of(context).unfocus();
   }
 }
+
