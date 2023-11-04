@@ -1,5 +1,6 @@
 import 'package:chats_app/utils/utils.dart';
 import 'package:chats_app/view/screen/auth/auth_service.dart';
+import 'package:chats_app/view/screen/auth/sign_up_screen.dart';
 import 'package:chats_app/view/screen/chats_screen.dart';
 import 'package:flutter/material.dart';
 
@@ -54,7 +55,11 @@ class _LoginPageState extends State<LoginPage> {
               20.ph,
               ElevatedButton.icon(
                   onPressed: (){
-                    Navigator.push(context, MaterialPageRoute(builder: (context) => ChatsPage()));
+                    AuthService().isLogin(
+                      context,
+                      email.text,
+                      password.text,
+                    );
                   },
                   icon: Icon(Icons.login),
                   label: Text("Login")
@@ -62,11 +67,7 @@ class _LoginPageState extends State<LoginPage> {
               30.ph,
               TextButton(
                 onPressed: (){
-                  AuthService().isLogin(
-                    context,
-                    email.text,
-                    password.text,
-                  );
+                  Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpPage()));
                 },
                 child: Text("SignUp"),
               ),

@@ -1,5 +1,4 @@
 import 'dart:async';
-
 import 'package:chats_app/model/user_modell.dart';
 import 'package:chats_app/view/screen/auth/login_screen.dart';
 import 'package:chats_app/view/screen/auth/sign_up_screen.dart';
@@ -7,8 +6,9 @@ import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
-
 import '../chats_screen.dart';
+
+
 class AuthService{
   FirebaseAuth auth = FirebaseAuth.instance;
   FirebaseFirestore firestore = FirebaseFirestore.instance;
@@ -50,7 +50,7 @@ class AuthService{
               image: "https://i.pinimg.com/474x/22/c6/4d/22c64d99a15c53f031dce89da274901a.jpg",
               isOnline: true,
               lastActive: DateTime.now(),
-            ).toJson()
+            ) as Map<String, dynamic>,
         ).then((value){
           Navigator.push(context, MaterialPageRoute(builder: (context) => ChatsPage()));
         }).onError((error, stackTrace){
