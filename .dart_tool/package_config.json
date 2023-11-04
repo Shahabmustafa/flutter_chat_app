@@ -248,6 +248,12 @@
       "languageVersion": "2.19"
     },
     {
+      "name": "flutter_pw_validator",
+      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/flutter_pw_validator-1.6.0",
+      "packageUri": "lib/",
+      "languageVersion": "2.17"
+    },
+    {
       "name": "flutter_test",
       "rootUri": "file:///Users/shahabmustafa/development/flutter/packages/flutter_test",
       "packageUri": "lib/",
@@ -264,42 +270,6 @@
       "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_fonts-4.0.4",
       "packageUri": "lib/",
       "languageVersion": "2.14"
-    },
-    {
-      "name": "google_identity_services_web",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_identity_services_web-0.2.1+1",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "google_sign_in",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in-6.1.5",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "google_sign_in_android",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.19",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "google_sign_in_ios",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.6.3",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "google_sign_in_platform_interface",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.2",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
-    },
-    {
-      "name": "google_sign_in_web",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.0+4",
-      "packageUri": "lib/",
-      "languageVersion": "2.19"
     },
     {
       "name": "http",
@@ -494,12 +464,6 @@
       "languageVersion": "2.12"
     },
     {
-      "name": "quiver",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/quiver-3.2.1",
-      "packageUri": "lib/",
-      "languageVersion": "2.17"
-    },
-    {
       "name": "rxdart",
       "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/rxdart-0.27.7",
       "packageUri": "lib/",
@@ -632,7 +596,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-02T10:43:21.535360Z",
+  "generated": "2023-11-03T19:19:21.810493Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }

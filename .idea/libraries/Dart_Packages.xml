@@ -289,6 +289,13 @@
             </list>
           </value>
         </entry>
+        <entry key="flutter_pw_validator">
+          <value>
+            <list>
+              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_pw_validator-1.6.0/lib" />
+            </list>
+          </value>
+        </entry>
         <entry key="flutter_test">
           <value>
             <list>
@@ -307,48 +314,6 @@
           <value>
             <list>
               <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_fonts-4.0.4/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="google_identity_services_web">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_identity_services_web-0.2.1+1/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="google_sign_in">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in-6.1.5/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="google_sign_in_android">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.19/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="google_sign_in_ios">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.6.3/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="google_sign_in_platform_interface">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.2/lib" />
-            </list>
-          </value>
-        </entry>
-        <entry key="google_sign_in_web">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.0+4/lib" />
             </list>
           </value>
         </entry>
@@ -576,13 +541,6 @@
             </list>
           </value>
         </entry>
-        <entry key="quiver">
-          <value>
-            <list>
-              <option value="$USER_HOME$/.pub-cache/hosted/pub.dev/quiver-3.2.1/lib" />
-            </list>
-          </value>
-        </entry>
         <entry key="rxdart">
           <value>
             <list>
@@ -773,13 +731,8 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_cache_manager-3.3.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_launcher_icons-0.13.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_plugin_android_lifecycle-2.0.16/lib" />
+      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/flutter_pw_validator-1.6.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/google_fonts-4.0.4/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/google_identity_services_web-0.2.1+1/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in-6.1.5/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_android-6.1.19/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_ios-5.6.3/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_platform_interface-2.4.2/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/google_sign_in_web-0.12.0+4/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/http-0.13.6/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/http_parser-4.0.2/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/image-4.0.17/lib" />
@@ -812,7 +765,6 @@
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/plugin_platform_interface-2.1.6/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/pointycastle-3.7.3/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/provider-6.0.5/lib" />
-      <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/quiver-3.2.1/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/rxdart-0.27.7/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/source_span-1.10.0/lib" />
       <root url="file://$USER_HOME$/.pub-cache/hosted/pub.dev/sprintf-7.0.0/lib" />

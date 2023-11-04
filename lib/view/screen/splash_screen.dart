@@ -1,5 +1,6 @@
 import 'dart:async';
 
+import 'package:chats_app/view/screen/auth/auth_service.dart';
 import 'package:chats_app/view/screen/auth/login_screen.dart';
 import 'package:flutter/material.dart';
 import 'package:google_fonts/google_fonts.dart';
@@ -12,12 +13,13 @@ class SplashPage extends StatefulWidget {
 }
 
 class _SplashPageState extends State<SplashPage> {
-  isLogin(){
-    Timer(Duration(seconds: 3), () {
-      Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
-    });
-  }
+  AuthService service  = AuthService();
   @override
+  void initState() {
+    // TODO: implement initState
+    super.initState();
+    service.SplashServer(context);
+  }
   Widget build(BuildContext context) {
     return Scaffold(
       body: Column(
