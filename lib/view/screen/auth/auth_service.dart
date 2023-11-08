@@ -1,7 +1,5 @@
 import 'dart:async';
-import 'package:chats_app/model/user_modell.dart';
 import 'package:chats_app/view/screen/auth/login_screen.dart';
-import 'package:chats_app/view/screen/auth/sign_up_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
@@ -15,17 +13,12 @@ class AuthService{
 
   // login account only update user online turn on
   isLogin(BuildContext context,String email,String password)async{
-    User? user = auth.currentUser;
     try{
       await auth.signInWithEmailAndPassword(
         email: email,
         password: password,
       ).then((value){
-        firestore.doc(user!.uid).update({
-          "isOnline" : true,
-          "lastActive" : DateTime.now(),
-        });
-        Navigator.push(context, MaterialPageRoute(builder: (context) => SignUpPage()));
+        Navigator.push(context, MaterialPageRoute(builder: (context) => ChatsPage()));
       }).onError((error, stackTrace){
         print(error.toString());
       });
@@ -36,22 +29,19 @@ class AuthService{
 
   // sign account and user data store in firstore
   isSignUp(BuildContext context,String userName,String email,String password)async{
-    User? user = auth.currentUser;
     try{
       await auth.createUserWithEmailAndPassword(
           email: email,
           password: password,
       ).then((value){
-        firestore.collection("users").doc(user!.uid).set(
-            UserModel(
-              uid: user.uid,
-              name: userName,
-              email: user.email,
-              image: "https://i.pinimg.com/474x/22/c6/4d/22c64d99a15c53f031dce89da274901a.jpg",
-              isOnline: true,
-              lastActive: DateTime.now(),
-            ) as Map<String, dynamic>,
-        ).then((value){
+        firestore.collection("users").doc(auth.currentUser!.uid).set({
+            "uid": auth.currentUser!.uid,
+            "name": userName,
+            "email": auth.currentUser!.email,
+            "image": "https://i.pinimg.com/474x/22/c6/4d/22c64d99a15c53f031dce89da274901a.jpg",
+            "isOnline": true,
+            "lastActive": DateTime.now(),
+        }).then((value){
           Navigator.push(context, MaterialPageRoute(builder: (context) => ChatsPage()));
         }).onError((error, stackTrace){
           print('Not Save');
@@ -64,19 +54,15 @@ class AuthService{
 
   // sign out account only update user online turn off
   isSignOut(BuildContext context)async{
-    User? user = auth.currentUser;
     await auth.signOut().then((value){
-      firestore.collection('user').doc(user!.uid).update({
-        "isOnline" : false,
-      });
+      Navigator.push(context, MaterialPageRoute(builder: (context) => LoginPage()));
     });
   }
 
   // account delete and the user delete data to firestore
   accountDelete(BuildContext context)async{
-    User? user = auth.currentUser;
-    await user!.delete().then((value){
-      firestore.doc(user.uid).delete();
+    await auth.currentUser!.delete().then((value){
+      firestore.doc(auth.currentUser!.uid).delete();
     });
   }
 

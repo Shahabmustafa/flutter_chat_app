@@ -58,6 +58,7 @@ dependencies:
 
   # password validation
   flutter_pw_validator: ^1.6.0
+  intl: ^0.18.1
 
 dev_dependencies:
   flutter_test:

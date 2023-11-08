@@ -15,7 +15,7 @@ class _LoginPageState extends State<LoginPage> {
   TextEditingController email = TextEditingController();
   TextEditingController password = TextEditingController();
   GlobalKey<FormState> _key = GlobalKey<FormState>();
-  bool visible = false;
+  bool visible = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

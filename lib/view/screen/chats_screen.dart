@@ -43,11 +43,12 @@ class _ChatsPageState extends State<ChatsPage> {
               separatorBuilder: (context, index) =>
               const SizedBox(height: 10),
               physics: const BouncingScrollPhysics(),
-              itemBuilder: (context, index) => value
-                  .users[index].uid !=
-                  FirebaseAuth.instance.currentUser?.uid
-                  ? UserItems(user: value.users[index])
-                  : const SizedBox(),
+              itemBuilder: (context, index) {
+                return value.users[index].uid !=
+                    FirebaseAuth.instance.currentUser?.uid
+                    ? UserItems(user: value.users[index])
+                    : const SizedBox();
+              }
             );
           }),
     );

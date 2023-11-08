@@ -15,7 +15,7 @@ class _SignUpPageState extends State<SignUpPage> {
   TextEditingController password = TextEditingController();
   GlobalKey<FormState> _key = GlobalKey<FormState>();
   final authService = AuthService();
-  bool visible = false;
+  bool visible = true;
   @override
   Widget build(BuildContext context) {
     return Scaffold(

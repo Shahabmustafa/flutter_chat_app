@@ -11,7 +11,7 @@ class FirebaseProvider with ChangeNotifier{
   List<UserModel> getAllUser(){
     firestore
         .collection("users")
-        // .orderBy("lastActive",descending: true)
+        .orderBy("lastActive",descending: true)
         .snapshots(includeMetadataChanges: true)
         .listen((users) {
       this.users = users.docs
