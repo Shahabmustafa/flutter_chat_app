@@ -1,5 +1,7 @@
 import 'package:flutter/material.dart';
 import '../../model/user_modell.dart';
+import '../widgets/chat_message.dart';
+import '../widgets/chat_text_field_widget.dart';
 
 class ChatPage extends StatefulWidget {
   ChatPage({Key? key,required this.user}) : super(key: key);
@@ -15,6 +17,21 @@ class _ChatPageState extends State<ChatPage> {
   Widget build(BuildContext context) {
     return Scaffold(
       appBar: _buildAppBar(),
+      body: Column(
+        children: [
+          Expanded(
+            child: ChatMessages(
+              receiverId: widget.user.uid.toString(),
+            ),
+          ),
+          ChatTextField(
+            receiverId: widget.user.uid.toString(),
+          ),
+          SizedBox(
+            height: 20,
+          ),
+        ],
+      ),
     );
   }
   AppBar _buildAppBar() =>
