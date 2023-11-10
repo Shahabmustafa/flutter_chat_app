@@ -40,6 +40,10 @@ dependencies:
   firebase_auth: ^4.9.0
   cloud_firestore: ^4.9.1
   firebase_storage: ^11.2.6
+  firebase_messaging: ^14.7.4
+
+#  local notification
+  flutter_local_notifications: ^16.1.0
 
   # use network image
   cached_network_image: ^3.2.3

@@ -1,6 +1,7 @@
 import 'dart:typed_data';
 
 import 'package:chats_app/model/message_model.dart';
+import 'package:chats_app/model/user_modell.dart';
 import 'package:chats_app/service/firebase_storage_service.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -59,5 +60,13 @@ class FirebaseFirestoreService with ChangeNotifier{
         .collection("users")
         .doc(auth!.uid)
         .update(data);
+  }
+
+  static Future<List<UserModel>> searchUser(String name)async{
+    final snapshot = await FirebaseFirestore.instance
+        .collection("users")
+        .where("name",isGreaterThanOrEqualTo: name)
+        .get();
+    return snapshot.docs.map((doc) => UserModel.fromJson(doc.data())).toList();
   }
 }

@@ -1,8 +1,12 @@
 
 
 
+import 'package:chats_app/provider/firebase_provider.dart';
 import 'package:chats_app/view/widgets/custem_text_field.dart';
+import 'package:chats_app/view/widgets/user_item.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 class SearchPage extends StatefulWidget {
   const SearchPage({Key? key}) : super(key: key);
@@ -12,6 +16,7 @@ class SearchPage extends StatefulWidget {
 }
 
 class _SearchPageState extends State<SearchPage> {
+  TextEditingController searchController = TextEditingController();
   @override
   Widget build(BuildContext context) {
     return Scaffold(
@@ -21,12 +26,39 @@ class _SearchPageState extends State<SearchPage> {
       ),
       body: Column(
         children: [
-          CustomTextField(
-              hintText: hintText,
-              suffixIcon: suffixIcon,
-              prefixIcon: prefixIcon,
-              controller: controller,
-              onTap: null,
+          Padding(
+            padding: const EdgeInsets.symmetric(horizontal: 20),
+            child: CustomTextField(
+                hintText: "Search",
+                controller: searchController,
+              onChanged: (val) =>
+              Provider.of<FirebaseProvider>(context,listen: false).searchUser(val),
+            ),
+          ),
+          Consumer<FirebaseProvider>(
+            builder: (context,value,child){
+              return Expanded(
+                child: searchController.text.isEmpty ?
+                Column(
+                     mainAxisAlignment: MainAxisAlignment.center,
+                    children: [
+                      Icon(Icons.search,size: 100,),
+                      SizedBox(
+                        height: 100,
+                      ),
+                      Text("Search of User",style: TextStyle(fontWeight: FontWeight.w500,fontSize: 30),)
+                    ],
+                   ) :
+                ListView.builder(
+                  itemCount: value.search.length,
+                  itemBuilder: (context,index){
+                    return value.search[index].uid == FirebaseAuth.instance.currentUser!.uid ?
+                    UserItems(user: value.search[index]) :
+                    SizedBox();
+                  },
+                ),
+              );
+            },
           ),
         ],
       ),

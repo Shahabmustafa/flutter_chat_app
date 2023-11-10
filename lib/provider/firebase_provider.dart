@@ -1,4 +1,5 @@
 import 'package:chats_app/model/message_model.dart';
+import 'package:chats_app/service/firebase_firestore_services.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
@@ -11,6 +12,7 @@ class FirebaseProvider with ChangeNotifier{
   List<UserModel> users =[];
   UserModel? user;
   List<Message> messages = [];
+  List<UserModel> search = [];
 
   List<UserModel> getAllUser(){
     firestore
@@ -65,4 +67,9 @@ class FirebaseProvider with ChangeNotifier{
           );
         }
       });
+
+  Future<void> searchUser(String name)async{
+    search = await FirebaseFirestoreService.searchUser(name);
+    notifyListeners();
+  }
 }
