@@ -1,4 +1,4 @@
-#Thu Nov 09 11:14:26 PKT 2023
+#Fri Nov 10 14:28:35 PKT 2023
 base.0=/Users/shahabmustafa/Desktop/flutter_chat_app/build/app/intermediates/dex/debug/mergeExtDexDebug/classes.dex
 base.1=/Users/shahabmustafa/Desktop/flutter_chat_app/build/app/intermediates/dex/debug/mergeLibDexDebug/0/classes.dex
 base.2=/Users/shahabmustafa/Desktop/flutter_chat_app/build/app/intermediates/dex/debug/mergeProjectDexDebug/0/classes.dex

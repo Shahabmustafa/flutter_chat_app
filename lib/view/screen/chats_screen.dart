@@ -1,3 +1,6 @@
+import 'package:chats_app/service/firebase_firestore_services.dart';
+import 'package:chats_app/view/screen/search_screen.dart';
+import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/material.dart';
 import 'package:provider/provider.dart';
@@ -12,12 +15,35 @@ class ChatsPage extends StatefulWidget {
   State<ChatsPage> createState() => _ChatsPageState();
 }
 
-class _ChatsPageState extends State<ChatsPage> {
+class _ChatsPageState extends State<ChatsPage> with WidgetsBindingObserver {
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
+    WidgetsBinding.instance.addObserver(this);
     Provider.of<FirebaseProvider>(context,listen: false).getAllUser();
+  }
+  @override
+  void didChangeAppLifecycleState(AppLifecycleState state){
+    super.didChangeAppLifecycleState(state);
+    switch(state){
+      case AppLifecycleState.resumed:
+        FirebaseFirestoreService.updateUserData({
+          "lastActive" : DateTime.now(),
+          "isOnline" : true,
+        });
+        break;
+      case AppLifecycleState.inactive:
+      case AppLifecycleState.paused:
+      case AppLifecycleState.detached:
+        FirebaseFirestoreService.updateUserData({"isOnline" : false,});
+        break;
+    }
+  }
+  @override
+  void dispose() {
+    WidgetsBinding.instance.removeObserver(this);
+    super.dispose();
   }
   Widget build(BuildContext context) {
     return Scaffold(
@@ -26,6 +52,15 @@ class _ChatsPageState extends State<ChatsPage> {
         automaticallyImplyLeading: false,
         elevation: 0,
         actions: [
+          InkWell(
+            onTap: (){
+              Navigator.push(context, MaterialPageRoute(builder: (context) => SearchPage()));
+            },
+            child: Icon(Icons.search),
+          ),
+          SizedBox(
+            width: 10,
+          ),
           InkWell(
             onTap: (){
               AuthService().isSignOut(context);

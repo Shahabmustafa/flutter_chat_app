@@ -22,7 +22,7 @@ class _UserItemsState extends State<UserItems> {
             context, MaterialPageRoute(
             builder: (context) =>
                 ChatPage(
-                  user: widget.user,
+                  userId: widget.user.uid.toString(),
                 ),
         ),
         );

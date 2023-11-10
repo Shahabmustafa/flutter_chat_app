@@ -1,4 +1,5 @@
 import 'dart:async';
+import 'package:chats_app/service/firebase_firestore_services.dart';
 import 'package:chats_app/view/screen/auth/login_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
@@ -21,6 +22,9 @@ class AuthService{
         Navigator.push(context, MaterialPageRoute(builder: (context) => ChatsPage()));
       }).onError((error, stackTrace){
         print(error.toString());
+      });
+      await FirebaseFirestoreService.updateUserData({
+        "lastActive" : DateTime.now(),
       });
     }catch(e){
       print(e);

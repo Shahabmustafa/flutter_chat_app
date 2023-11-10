@@ -1,5 +1,7 @@
 import 'package:chats_app/model/message_model.dart';
+import 'package:chats_app/provider/firebase_provider.dart';
 import 'package:flutter/material.dart';
+import 'package:provider/provider.dart';
 
 import 'message_bubble_widget.dart';
 
@@ -74,21 +76,28 @@ class ChatMessages extends StatelessWidget {
 
   @override
   Widget build(BuildContext context) {
-    return ListView.builder(
-        itemCount: message.length,
-        itemBuilder: (context,index){
-          final isTextMessage = message[index].messageType == MessageType.text;
-          final isMe = receiverId != message[index].senderId;
-          return isTextMessage ?
-          MessageBubble(
-            isImage: false,
-            isMe: isMe,
-            message: message[index],
-          ) :
-          MessageBubble(
-            isImage: true,
-            isMe: isMe,
-            message: message[index],
+    return Consumer<FirebaseProvider>(
+        builder: (context,value,child){
+          return value.messages.isEmpty ? Expanded(
+              child: Center(child: Text("say Hello"))
+          ) : ListView.builder(
+              controller: Provider.of<FirebaseProvider>(context,listen: false).scrollController,
+              itemCount: value.messages.length,
+              itemBuilder: (context,index){
+                final isTextMessage = value.messages[index].messageType == MessageType.text;
+                final isMe = receiverId != value.messages[index].senderId;
+                return isTextMessage ?
+                MessageBubble(
+                  isImage: false,
+                  isMe: isMe,
+                  message: value.messages[index],
+                ) :
+                MessageBubble(
+                  isImage: true,
+                  isMe: isMe,
+                  message: value.messages[index],
+                );
+              }
           );
         }
     );

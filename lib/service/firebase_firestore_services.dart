@@ -22,7 +22,7 @@ class FirebaseFirestoreService with ChangeNotifier{
     await _addMessageToChat(receiverId,message);
   }
   static Future<void> _addMessageToChat(String receiverId,Message message)async{
-    firestore
+    await firestore
         .collection("users")
         .doc(auth!.uid)
         .collection("chat")
@@ -54,4 +54,10 @@ class FirebaseFirestoreService with ChangeNotifier{
     await _addMessageToChat(receiverId, message);
   }
 
+  static Future<void> updateUserData(Map<String,dynamic> data)async{
+    await firestore
+        .collection("users")
+        .doc(auth!.uid)
+        .update(data);
+  }
 }

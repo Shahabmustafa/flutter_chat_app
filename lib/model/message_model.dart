@@ -1,38 +1,43 @@
-class Message{
-  String senderId;
-  String receiverId;
-  String content;
-  DateTime sentTime;
-  MessageType messageType;
+class Message {
+  final String senderId;
+  final String receiverId;
+  final String content;
+  final DateTime sentTime;
+  final MessageType messageType;
 
-  Message({
+  const Message({
     required this.senderId,
     required this.receiverId,
-    required this.content,
     required this.sentTime,
+    required this.content,
     required this.messageType,
-});
+  });
 
   factory Message.fromJson(Map<String, dynamic> json) =>
       Message(
-        senderId: json['senderId'],
         receiverId: json['receiverId'],
+        senderId: json['senderId'],
+        sentTime: json['sentTime'].toDate(),
         content: json['content'],
-        sentTime: json['sentTime'],
-        messageType: json['messageType'],
+        messageType:
+        MessageType.fromJson(json['messageType']),
       );
 
   Map<String, dynamic> toJson() => {
-    'senderId': senderId,
     'receiverId': receiverId,
-    'content': content,
+    'senderId': senderId,
     'sentTime': sentTime,
+    'content': content,
     'messageType': messageType.toJson(),
   };
 }
 
-enum MessageType{
+enum MessageType {
   text,
   image;
-  String toJson () => name;
+
+  String toJson() => name;
+
+  factory MessageType.fromJson(String json) =>
+      values.byName(json);
 }
