@@ -1,8 +1,7 @@
 import 'dart:typed_data';
-
-import 'package:chats_app/service/firebase_storage_service.dart';
 import 'package:chats_app/service/media_services.dart';
-import 'package:firebase_storage/firebase_storage.dart';
+import 'package:chats_app/service/notification_service.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import '../../service/firebase_firestore_services.dart';
@@ -17,8 +16,13 @@ class ChatTextField extends StatefulWidget {
 
 class _ChatTextFieldState extends State<ChatTextField> {
   TextEditingController controller = TextEditingController();
+  final notificationService = NotificationService();
   Uint8List? file;
   @override
+  void initState() {
+    notificationService.getRecevierToken(widget.receiverId);
+    super.initState();
+  }
   Widget build(BuildContext context) {
     return Row(
       crossAxisAlignment: CrossAxisAlignment.center,
@@ -60,6 +64,10 @@ class _ChatTextFieldState extends State<ChatTextField> {
         content: controller.text,
         receiverId: widget.receiverId,
       );
+      await notificationService.sendNotification(
+          body: controller.text,
+          senderId: FirebaseAuth.instance.currentUser!.uid,
+      );
       controller.clear();
       FocusScope.of(context).unfocus();
     }
@@ -74,6 +82,10 @@ class _ChatTextFieldState extends State<ChatTextField> {
       await FirebaseFirestoreService.addImageMessage(
           receiverId: widget.receiverId,
           file: file!,
+      );
+      await notificationService.sendNotification(
+        body: controller.text,
+        senderId: FirebaseAuth.instance.currentUser!.uid,
       );
     }
   }

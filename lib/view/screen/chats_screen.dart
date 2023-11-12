@@ -1,4 +1,5 @@
 import 'package:chats_app/service/firebase_firestore_services.dart';
+import 'package:chats_app/service/notification_service.dart';
 import 'package:chats_app/view/screen/search_screen.dart';
 import 'package:cloud_firestore/cloud_firestore.dart';
 import 'package:firebase_auth/firebase_auth.dart';
@@ -16,12 +17,15 @@ class ChatsPage extends StatefulWidget {
 }
 
 class _ChatsPageState extends State<ChatsPage> with WidgetsBindingObserver {
+
+  final notificationServer = NotificationService();
   @override
   void initState() {
     // TODO: implement initState
     super.initState();
     WidgetsBinding.instance.addObserver(this);
     Provider.of<FirebaseProvider>(context,listen: false).getAllUser();
+    notificationServer.firebaseNotification(context);
   }
   @override
   void didChangeAppLifecycleState(AppLifecycleState state){

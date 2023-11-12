@@ -1,5 +1,6 @@
 import 'dart:async';
 import 'package:chats_app/service/firebase_firestore_services.dart';
+import 'package:chats_app/service/notification_service.dart';
 import 'package:chats_app/view/screen/auth/login_screen.dart';
 import 'package:firebase_auth/firebase_auth.dart';
 import 'package:flutter/cupertino.dart';
@@ -11,6 +12,7 @@ import '../chats_screen.dart';
 class AuthService{
   FirebaseAuth auth = FirebaseAuth.instance;
   FirebaseFirestore firestore = FirebaseFirestore.instance;
+  static final notification = NotificationService();
 
   // login account only update user online turn on
   isLogin(BuildContext context,String email,String password)async{
@@ -18,7 +20,9 @@ class AuthService{
       await auth.signInWithEmailAndPassword(
         email: email,
         password: password,
-      ).then((value){
+      ).then((value)async{
+        await notification.getToken();
+        await notification.getToken();
         Navigator.push(context, MaterialPageRoute(builder: (context) => ChatsPage()));
       }).onError((error, stackTrace){
         print(error.toString());
@@ -45,7 +49,9 @@ class AuthService{
             "image": "https://i.pinimg.com/474x/22/c6/4d/22c64d99a15c53f031dce89da274901a.jpg",
             "isOnline": true,
             "lastActive": DateTime.now(),
-        }).then((value){
+        }).then((value)async{
+          await notification.getToken();
+          await notification.getToken();
           Navigator.push(context, MaterialPageRoute(builder: (context) => ChatsPage()));
         }).onError((error, stackTrace){
           print('Not Save');

@@ -1,5 +1,9 @@
-
-
+import 'dart:convert';
+import 'package:chats_app/view/screen/chat_screen.dart';
+import 'package:flutter/material.dart';
+import 'package:http/http.dart' as http;
+import 'package:cloud_firestore/cloud_firestore.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 import 'package:firebase_messaging/firebase_messaging.dart';
 import 'package:flutter_local_notifications/flutter_local_notifications.dart';
 
@@ -78,7 +82,66 @@ class NotificationService{
     if(settings.authorizationStatus == AuthorizationStatus.authorized){
       print("User granted permission");
     }else if(settings.authorizationStatus == AuthorizationStatus.provisional){
-      print("User granted provisional");
+      print("User granted provisional permission");
+    }else{
+      print("User declined or has not accepted permission");
+    }
+  }
+
+  Future<void> getToken()async{
+    final token = await FirebaseMessaging.instance.getToken();
+    _saveToken(token!);
+  }
+
+  Future<void> _saveToken(String token)async{
+    await FirebaseFirestore.instance
+        .collection("users")
+        .doc(FirebaseAuth.instance.currentUser!.uid).set({'token' : token,},SetOptions(merge: true));
+  }
+  String receiverToken = '';
+  Future<void> getRecevierToken(String? receiverId)async{
+    final getToken = await FirebaseFirestore.instance
+        .collection('users')
+        .doc(receiverId)
+        .get();
+    receiverToken = await getToken.data()!['token'];
+  }
+
+  void firebaseNotification(context){
+    _initLocalNotification();
+    FirebaseMessaging.onMessageOpenedApp.listen((RemoteMessage message)async{
+      await Navigator.of(context).push(MaterialPageRoute(builder: (_) => ChatPage(userId: message.data["senderId"])));
+    });
+    FirebaseMessaging.onMessage.listen((RemoteMessage message)async{
+      await _showLocalNotification(message);
+    });
+  }
+
+  Future<void> sendNotification({required String body,required String senderId})async{
+    try{
+      await http.post(
+        Uri.parse("https://fcm.googleapis.com/fcm/send"),
+        headers: <String,String>{
+          "Content-Type" : "application/json",
+          "Authorization" : "key=$key",
+        },
+        body: jsonEncode(<String,dynamic>{
+          "to" : receiverToken,
+          "priority" : "high",
+          "notification" : <String,dynamic>{
+            "body" : body,
+            "title" : "New Message !",
+          },
+          "data" : <String,String>{
+            "click_action" : "FLUTTER_NOTIFICATION_CLICK",
+            "status" : "done",
+            "senderId" : senderId,
+          }
+        },
+        ),
+      );
+    }catch(e){
+      print(e.toString());
     }
   }
 }

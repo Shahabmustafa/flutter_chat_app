@@ -3,8 +3,8 @@
     package="io.flutter.plugins.firebase.auth" >
 
     <uses-sdk
-        android:minSdkVersion="16"
-        android:targetSdkVersion="16" />
+        android:minSdkVersion="19"
+        android:targetSdkVersion="19" />
 
     <application>
         <service android:name="com.google.firebase.components.ComponentDiscoveryService" >

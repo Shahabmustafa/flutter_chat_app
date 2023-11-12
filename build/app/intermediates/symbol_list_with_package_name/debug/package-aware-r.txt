@@ -57,6 +57,9 @@ color common_google_signin_btn_text_light_pressed
 color common_google_signin_btn_tint
 color notification_action_color_filter
 color notification_icon_bg_color
+color notification_material_background_media_default_color
+color primary_text_default_material_dark
+color secondary_text_default_material_dark
 dimen browser_actions_context_menu_max_width
 dimen browser_actions_context_menu_min_padding
 dimen compat_button_inset_horizontal_material
@@ -81,6 +84,10 @@ dimen notification_small_icon_size_as_large
 dimen notification_subtext_size
 dimen notification_top_pad
 dimen notification_top_pad_large_text
+dimen subtitle_corner_radius
+dimen subtitle_outline_width
+dimen subtitle_shadow_offset
+dimen subtitle_shadow_radius
 drawable common_full_open_on_phone
 drawable common_google_signin_btn_icon_dark
 drawable common_google_signin_btn_icon_dark_focused
@@ -154,6 +161,7 @@ id accessibility_custom_action_6
 id accessibility_custom_action_7
 id accessibility_custom_action_8
 id accessibility_custom_action_9
+id action0
 id action_container
 id action_divider
 id action_image
@@ -170,9 +178,11 @@ id browser_actions_menu_item_icon
 id browser_actions_menu_item_text
 id browser_actions_menu_items
 id browser_actions_menu_view
+id cancel_action
 id chronometer
 id dark
 id dialog_button
+id end_padder
 id forever
 id icon
 id icon_group
@@ -184,6 +194,7 @@ id line1
 id line3
 id locale
 id ltr
+id media_actions
 id none
 id normal
 id notification_background
@@ -194,6 +205,7 @@ id right_icon
 id right_side
 id rtl
 id standard
+id status_bar_latest_event_content
 id tag_accessibility_actions
 id tag_accessibility_clickable_spans
 id tag_accessibility_heading
@@ -216,6 +228,7 @@ id view_tree_on_back_pressed_dispatcher_owner
 id view_tree_saved_state_registry_owner
 id view_tree_view_model_store_owner
 id wide
+integer cancel_button_image_alpha
 integer google_play_services_version
 integer status_bar_notification_info_maxnum
 layout browser_actions_context_menu_page
@@ -223,8 +236,17 @@ layout browser_actions_context_menu_row
 layout custom_dialog
 layout notification_action
 layout notification_action_tombstone
+layout notification_media_action
+layout notification_media_cancel_action
+layout notification_template_big_media
+layout notification_template_big_media_custom
+layout notification_template_big_media_narrow
+layout notification_template_big_media_narrow_custom
 layout notification_template_custom_big
 layout notification_template_icon_group
+layout notification_template_lines_media
+layout notification_template_media
+layout notification_template_media_custom
 layout notification_template_part_chronometer
 layout notification_template_part_time
 mipmap ic_launcher
@@ -256,10 +278,12 @@ string common_open_on_phone
 string common_signin_button_text
 string common_signin_button_text_long
 string copy_toast_msg
+string default_notification_channel_id
 string default_web_client_id
 string fallback_menu_item_copy_link
 string fallback_menu_item_open_in_browser
 string fallback_menu_item_share_link
+string fcm_fallback_notification_channel_label
 string gcm_defaultSenderId
 string google_api_key
 string google_app_id
@@ -271,9 +295,14 @@ style LaunchTheme
 style NormalTheme
 style TextAppearance_Compat_Notification
 style TextAppearance_Compat_Notification_Info
+style TextAppearance_Compat_Notification_Info_Media
 style TextAppearance_Compat_Notification_Line2
+style TextAppearance_Compat_Notification_Line2_Media
+style TextAppearance_Compat_Notification_Media
 style TextAppearance_Compat_Notification_Time
+style TextAppearance_Compat_Notification_Time_Media
 style TextAppearance_Compat_Notification_Title
+style TextAppearance_Compat_Notification_Title_Media
 style Widget_Compat_NotificationActionContainer
 style Widget_Compat_NotificationActionText
 styleable ActivityFilter activityAction activityName

@@ -309,15 +309,15 @@
     },
     {
       "name": "google_fonts",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_fonts-4.0.4",
+      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/google_fonts-4.0.5",
       "packageUri": "lib/",
       "languageVersion": "2.14"
     },
     {
       "name": "http",
-      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/http-0.13.6",
+      "rootUri": "file:///Users/shahabmustafa/.pub-cache/hosted/pub.dev/http-1.1.0",
       "packageUri": "lib/",
-      "languageVersion": "2.19"
+      "languageVersion": "3.0"
     },
     {
       "name": "http_parser",
@@ -644,7 +644,7 @@
       "languageVersion": "2.19"
     }
   ],
-  "generated": "2023-11-10T17:51:53.250773Z",
+  "generated": "2023-11-11T19:19:51.656766Z",
   "generator": "pub",
   "generatorVersion": "3.1.5"
 }

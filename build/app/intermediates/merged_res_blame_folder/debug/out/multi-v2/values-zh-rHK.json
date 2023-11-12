@@ -1,7 +1,7 @@
 {
     "logs": [
         {
-            "outputFile": "com.example.chats_app-mergeDebugResources-25:/values-zh-rHK/values-zh-rHK.xml",
+            "outputFile": "com.example.chats_app-mergeDebugResources-28:/values-zh-rHK/values-zh-rHK.xml",
             "map": [
                 {
                     "source": "/Users/shahabmustafa/.gradle/caches/transforms-3/43c3e0790bd86dd749af46a89c7fbb5c/transformed/browser-1.4.0/res/values-zh-rHK/values-zh-rHK.xml",
